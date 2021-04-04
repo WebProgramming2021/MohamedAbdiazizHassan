@@ -1,0 +1,131 @@
+/* Global css */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #4f4f4f;
+}
+.wrapper {
+  margin-right: auto; 
+  margin-left: auto; 
+  padding-right: 30px;
+  padding-left: 30px;
+}
+/* header css */
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin-top:20px;
+    border-bottom: 1px solid #4f4f4f;
+}
+.info >h2{
+   color: #362D77;
+    
+}
+.info >h5{
+    color: #4f4f4f;
+     
+ }
+ .contact{
+    border-left: 2px solid #4f4f4f;
+    margin-bottom: 10px;
+ }
+.contact > li{
+    list-style: none;
+    color:#4f4f4f;
+    padding-left:3px; 
+}
+
+.icons{
+    width: 16px;
+    height: 16px;
+    color: #362D77; 
+    padding-right: 3px;
+}
+.mail{
+    text-decoration: none;
+    color:#4f4f4f;
+}
+
+/* about css */
+.about{
+    display:flex;
+    margin-top:10px;
+    border-bottom: 1px solid #4f4f4f;
+}
+.myprofile{
+    width: 120px;
+    height: 120px; 
+    border:2px solid #362D77;
+    border-radius: 50%;
+}
+.text >h5{
+    text-align: left;
+    padding-left:20px;
+    font-size:14px;
+    padding-top:20px;
+    color:#4f4f4f;
+    line-height:21px;
+    letter-spacing:normal;
+
+}
+/* content css  */
+.content{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10px;
+    padding-bottom: 10px;
+   
+}
+
+.title{
+    font-size:18px;
+    text-align: left;
+    letter-spacing:2.4px;
+    line-height:21.6px;
+    color:#362D77;
+    padding-bottom: 10px;
+    border-left: 5px solid #362D77;
+    padding-left: 5px;
+}
+
+
+.content-ul >li{
+    text-indent:18px;
+    list-style:none;
+    color:#4f4f4f;
+    padding-bottom: 8px;
+}
+.righttside{
+    padding-left:5px;
+    border-left: 2px solid #4f4f4f;
+}
+
+/* mobile responsive view */
+@media (max-width: 600px){
+  
+    .header{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .about{
+        display:block;
+        text-align: center;
+    }
+    .content{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .contact{
+        padding-top: 10px;
+        border: none;
+    }
+    .righttside{
+        border: none;
+    }
+    
+}
+
